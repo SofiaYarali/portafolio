@@ -1,0 +1,215 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+ol, ul,li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top ;
+    width: 20%;
+    margin-right: 15%;
+    justify-content: space-between; /*para darles un espacio*/
+}
+
+a{
+    
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.menu__list__item, li{
+    padding-left: 30px;
+    text-align: right;
+}
+
+.title__profile{
+
+    transition: 400ms;
+    box-shadow: 1px 1px 1px 1px #000000; /*horizaontal, vertical, difumiciadad, espanción y color de la sombra es al reloj*/
+
+}
+
+.title__network{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.skills{
+    display: inline;
+    text-align: left;
+}
+
+.skills__line{
+    display: inline;
+    vertical-align: middle;
+}
+
+
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+.menu__title{
+    text-align: left;
+}
+.menu__list__item__contato{
+    text-align: right;
+    vertical-align: bottom;
+    justify-content: space-between; /*para darles un espacio*/
+    clear: left;
+    line-height: 0.5;
+    
+}
+
+
+section.menu{
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap; /*para el espaciado*/
+    display: inline;
+    vertical-align: top;
+    justify-content: space-between; /*para darles un espacio*/
+    top: 0;
+    gap: 15px;
+}
+
+/*Sección Title*/
+
+section.title{
+    width: 940px; 
+    position: relative;
+    margin: 0 auto; /*inferior y auto a los bordes*/
+}
+
+/*Sección About*/
+
+section.about{
+    font-weight: bold;
+}
+
+/*Sección Hobbies*/
+
+section.hobbies ul li{
+    font-weight: bold;
+    display: inline;
+    vertical-align: top;
+    font-size: 1.2em;
+    padding: 0.5em;
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic div{
+    font-weight: bold;
+    display: inline;
+    vertical-align: top;
+    
+}
+
+
+/* experiencia*/
+
+section.experience{
+    font-weight: bold;
+    display: inline;
+    vertical-align: top;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    font-weight: bold;
+    margin: 40px 0;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; /*0 en la parte superior, 0 a la derecha y para abajo 10 */
+}
+
+/*footeer*/
+
+footer{
+    text-align: center;
+    /*permite en css llamar a una imagen*/
+    background: url(assets/bg.jpg);
+    padding: 1px;
+}
+/*selector de clase .*/
+
+.imgsy{
+    width: 15%; 
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 1px;
+}
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
